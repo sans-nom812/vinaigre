@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #faf8f5;
+  color: #333;
+}
+
+header {
+  background-color: #6a4e42;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #f0e8de;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+}
+
+.produit {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.produit img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #6a4e42;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #54392f;
+}
+
+footer {
+  text-align: center;
+  margin: 30px 0;
+  color: #777;
+  font-size: 14px;
+}
